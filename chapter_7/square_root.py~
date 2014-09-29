@@ -1,0 +1,9 @@
+def square_root(x,a):
+      y = (x + a/x) / 2
+      if (abs(y-x) < epsilon):
+         break
+      x = y
+      print y
+
+
+square_root(3,9)

@@ -1,0 +1,6 @@
+
+radius = raw_input("radius\n")
+r = int(radius)
+area = 3.14 * (r * r)
+print area
+     

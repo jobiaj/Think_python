@@ -1,0 +1,9 @@
+def is_triangle(a,b,c):
+	if( ((a+b) < c) or ((a+c) < b) or ((b+c) < a)):
+	 	print "No"
+        else:
+		print "Yes"
+
+is_triangle(1,12,2)
+
+is_triangle(3,4,5)
